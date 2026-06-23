@@ -77,17 +77,17 @@ Be concise but complete. Prefer operational exam wording over broad theory.
    - two variables while controlling others -> 偏相关
    - continuous DV + multiple predictors -> 多元线性回归
 
-3. Load `references/spss-operation-map.md` when you need exact SPSS paths, output names, variable placement, assumption checks, conclusion templates, or edge-case reminders.
+3. Load `spss-operation-map.md` when you need exact SPSS paths, output names, variable placement, assumption checks, conclusion templates, or edge-case reminders.
 
-4. Load `references/result-interpretation-principles.md` when the answer needs method principles, hypothesis logic, automatic result description, p-value inference, direction/strength wording, or conversion from SPSS output values into exam conclusions.
+4. Load `result-interpretation-principles.md` when the answer needs method principles, hypothesis logic, automatic result description, p-value inference, direction/strength wording, or conversion from SPSS output values into exam conclusions.
 
-5. Load `references/data-execution-mode.md` when the user provides raw data or asks “直接做/帮我算/直接出结果/用数据做”. Use `scripts/spss_exam_analyzer.py` to audit and compute whenever possible.
+5. Load `data-execution-mode.md` when the user provides raw data or asks “直接做/帮我算/直接出结果/用数据做”. Use `scripts/spss_exam_analyzer.py` to audit and compute whenever possible.
 
-6. Load `references/textbook-integration.md` when the user mentions 教材、课本、庞琴、《国际关系量化研究方法》, chapter/page numbers, or asks for textbook-aligned wording.
+6. Load `textbook-integration.md` when the user mentions 教材、课本、庞琴、《国际关系量化研究方法》, chapter/page numbers, or asks for textbook-aligned wording.
 
-7. Load `references/textbook-ocr-notes.md` when the answer should reflect the user's OCR Markdown from 庞琴《国际关系量化研究方法》, especially for 描述统计、数据转换、缺失/偏离值、卡方、ANOVA、相关/偏相关, or textbook-aligned reminders.
+7. Load `textbook-ocr-notes.md` when the answer should reflect the user's OCR Markdown from 庞琴《国际关系量化研究方法》, especially for 描述统计、数据转换、缺失/偏离值、卡方、ANOVA、相关/偏相关, or textbook-aligned reminders.
 
-8. Load `references/classroom-review-v2.md` when the user asks for 开卷复习、速查手册、课堂案例、模拟上机、考前检查、方法辨析, or when a题目 resembles the course examples on 五常投票、居住地区与中国影响力、IPDUS、政党参与与信任、聘礼与GPI、富裕与腐败、中菲好感度、核武器使用意愿、第三国选边美国、巴西通胀预期、q160, or q7-q19 政治信任.
+8. Load `classroom-review-v2.md` when the user asks for 开卷复习、速查手册、课堂案例、模拟上机、考前检查、方法辨析, or when a题目 resembles the course examples on 五常投票、居住地区与中国影响力、IPDUS、政党参与与信任、聘礼与GPI、富裕与腐败、中菲好感度、核武器使用意愿、第三国选边美国、巴西通胀预期、q160, or q7-q19 政治信任.
 
 9. If the user provides raw data, use data execution mode:
    - audit variables and labels first
