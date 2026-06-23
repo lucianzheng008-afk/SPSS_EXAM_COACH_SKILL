@@ -7,7 +7,7 @@ Codex skill for SPSS operation exams in Chinese quantitative methods courses. It
 After this repository is on GitHub, install into Codex with the skill installer:
 
 ```text
-Use $skill-installer to install from https://github.com/<owner>/<repo>/tree/main/spss-exam-coach
+Use $skill-installer to install from https://github.com/lucianzheng008-afk/SPSS_EXAM_COACH_SKILL/tree/main
 ```
 
 Then restart Codex so the skill is discovered.
