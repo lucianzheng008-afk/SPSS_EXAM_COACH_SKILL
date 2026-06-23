@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPSS Exam Coach"
+  short_description: "SPSS题目与数据文件的计算、方法判断、输出判读和考试结论"
+  default_prompt: "Use $spss-exam-coach to analyze this SPSS操作考试题目 or dataset, compute/check the needed statistics, and give the method choice, principle, exact menu steps, output interpretation, inference, and exam-ready conclusion."
