@@ -50,38 +50,38 @@ Reusable script:
 
 Audit:
 ```bash
-python scripts/spss_exam_analyzer.py --file DATA --analysis audit
+python spss_exam_analyzer.py --file DATA --analysis audit
 ```
 
 Descriptive statistics:
 ```bash
-python scripts/spss_exam_analyzer.py --file DATA --analysis desc --vars var1 var2
+python spss_exam_analyzer.py --file DATA --analysis desc --vars var1 var2
 ```
 
 Chi-square:
 ```bash
-python scripts/spss_exam_analyzer.py --file DATA --analysis chi2 --iv group_var --dv outcome_var
+python spss_exam_analyzer.py --file DATA --analysis chi2 --iv group_var --dv outcome_var
 ```
 
 One-way ANOVA:
 ```bash
-python scripts/spss_exam_analyzer.py --file DATA --analysis anova --iv group_var --dv continuous_var
+python spss_exam_analyzer.py --file DATA --analysis anova --iv group_var --dv continuous_var
 ```
 
 Correlation:
 ```bash
-python scripts/spss_exam_analyzer.py --file DATA --analysis corr --x var1 --y var2 --corr-method pearson
-python scripts/spss_exam_analyzer.py --file DATA --analysis corr --x var1 --y var2 --corr-method spearman
+python spss_exam_analyzer.py --file DATA --analysis corr --x var1 --y var2 --corr-method pearson
+python spss_exam_analyzer.py --file DATA --analysis corr --x var1 --y var2 --corr-method spearman
 ```
 
 Partial correlation:
 ```bash
-python scripts/spss_exam_analyzer.py --file DATA --analysis partial-corr --x var1 --y var2 --controls control1 control2
+python spss_exam_analyzer.py --file DATA --analysis partial-corr --x var1 --y var2 --controls control1 control2
 ```
 
 Linear regression:
 ```bash
-python scripts/spss_exam_analyzer.py --file DATA --analysis regression --dv y --predictors x1 x2 x3
+python spss_exam_analyzer.py --file DATA --analysis regression --dv y --predictors x1 x2 x3
 ```
 
 ## Accuracy Rules
