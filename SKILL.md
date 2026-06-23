@@ -81,7 +81,7 @@ Be concise but complete. Prefer operational exam wording over broad theory.
 
 4. Load `result-interpretation-principles.md` when the answer needs method principles, hypothesis logic, automatic result description, p-value inference, direction/strength wording, or conversion from SPSS output values into exam conclusions.
 
-5. Load `data-execution-mode.md` when the user provides raw data or asks “直接做/帮我算/直接出结果/用数据做”. Use `scripts/spss_exam_analyzer.py` to audit and compute whenever possible.
+5. Load `data-execution-mode.md` when the user provides raw data or asks “直接做/帮我算/直接出结果/用数据做”. Use `spss_exam_analyzer.py` to audit and compute whenever possible.
 
 6. Load `textbook-integration.md` when the user mentions 教材、课本、庞琴、《国际关系量化研究方法》, chapter/page numbers, or asks for textbook-aligned wording.
 
